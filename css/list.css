@@ -1,0 +1,439 @@
+
+.top{
+	width: 100%;
+	overflow: hidden;
+	background-color:#394043;
+}
+.topUl{
+	margin:13px 0;
+	overflow: hidden;
+}
+.topUl>li{
+	float: left;
+	margin-right: 20px; 
+	font-size: 12px;
+
+}
+.topUl>li a{
+	color:#a9abab;
+}
+.topUl img{
+	position: relative;
+	top:2px;
+}
+.topUl>li.rigTop{
+	float: right;
+}
+.topUl>li.actTop a,.topUl>li.rigTop a{
+	color: #fff;
+}
+/*中间内容样式*/
+.cenList{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+.navLis{
+	width: 100%;
+	overflow: hidden;
+}
+.centerBox1{
+	width: 1000px;
+	overflow: hidden;
+	position: relative;
+	left:50%;
+	margin-left: -500px;
+}
+.navO{
+	margin:25px 0;
+	overflow:hidden;
+
+}
+.navO img{
+	float: left;
+}
+.navO span{
+	float: left;
+	margin:0 20px;
+	width: 1px;
+	height: 28px;
+	background-color: #cccccc;
+}
+.navO .suP{
+	width:60px; 
+	height:26px;
+	float: left;
+	border:1px solid #dfdfdf;
+	text-align: center;
+	line-height: 26px;
+	color:#333;
+	font-size: 14px;
+
+}
+.suP>.jian{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin:6px 5px;
+	background: url("../image/listSan.png") center no-repeat; 
+	
+}
+/*搜索框样式*/
+.listSea{
+	width: 100%;
+	overflow: hidden;
+	background-color: #edeff1;
+}
+.listD{
+	width: 100%;
+	overflow: hidden;
+	margin:16px 0;
+}
+.seaLis{
+	width: 407px;
+	height: 35px;
+	float: left;
+}
+.seaLis>input{
+	width: 370px;
+	height: 35px;
+	float: left;
+	border:none;
+	color:#767676;
+}
+.seaLis>.seImg{
+	float: left;
+	width: 37px;
+	height: 35px;
+	text-align: center;
+	background-color:#f15044;
+}
+.seImg>img{
+	position: relative;
+	top:8px;
+}
+.hisP{
+	float: left;
+	height: 35px;
+	margin-left: 18px;
+	line-height: 35px;
+	color: #999999;
+}
+.map{
+	width: 105px;
+	height: 35px;
+	float: right;
+	background-color: #39ac6a;
+	text-align: center;
+}
+.map img{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top:6px;
+	left: -3px;
+}
+.map a{
+
+	color:#fff;
+}
+
+/*具体选项的样式*/
+.placeUl{
+	padding:18px 0;
+	margin-bottom: 20px;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	border-bottom: 1px solid #eaeaea;
+}
+.placeUl>li{
+	float: left;
+	margin-right: 12px;
+	font-size: 12px;
+}
+.placeUl img{
+	width: 13px;
+	height: 13px;
+	position: relative;
+	top:2px;
+}
+.placeUl>li a{
+	color:#555555;
+}
+
+/*具体的区域选择*/
+.choseUl{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.choseUl>li{
+	float: left;
+	margin-right: 20px;
+	font-size: 12px;
+}
+.choseUl>li a{
+	display: inline-block;
+	color: #333;
+}
+.choseUl>li a:hover{
+	color:#00ae66;
+}
+.choseUl>li.activeC a{
+	color: #00ae66;
+}
+.choseUl .A{
+	width: 52px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	color: #767676;
+	border:1px solid #ddd;
+}
+.choseUl input{
+	position: relative;
+	top:3px;
+	border:none;
+}
+/*展开选项的样式*/
+.openChose{
+	text-align: center;
+	font-size: 12px;
+	color:#666;
+	margin-bottom: 40px;
+}
+.openChose>img{
+	position: relative;
+	top:3px;
+}
+/*排序样式*/
+.chose1{
+	float: left;
+	overflow: hidden;
+}
+.chose1>li{
+	float: left;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #fff;
+	font-size: 12px;
+	
+}
+.chose1>li a{
+	color: #a6a6a6;
+	display: inline-block;
+}
+.chose1>li.active1{
+	background-color:#666;
+}
+.chose1>li.active1 a{
+	color: #fff;
+}
+.chose2{
+	float: right;
+	overflow: hidden;
+}
+.chose2>li{
+	float: left;	
+}
+.chose2>li a{
+	display: inline-block;
+	width:127px;
+	height: 32px;
+	margin-left: 14px;
+	border:1px solid #eaeaea;
+	text-align: center;
+	line-height: 32px;
+	color:#333333;
+}
+.chose2>li .active2{
+	border:1px solid #00ae66;
+	color:#00ae66;
+}
+/*具体信息描述*/
+.item{
+	width: 100%;
+	/*margin-top: 30px;*/
+	overflow: hidden;
+	border-bottom:1px solid #e4e4e4;
+}
+.item:hover{
+	background-color:#F6F6F6;
+}
+.massage{
+	width: 100%;
+	overflow: hidden;
+	margin:45px 0;
+}
+.massage>img{
+	width: 237px;
+	height: 175px;
+	float: left;
+	margin-right:30px;
+}
+.massage>.rightM{
+	width: 725px;
+	height: 175px;
+	float: left;
+}
+/**/
+.massUl{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.massUl>li{
+	float: left;
+}
+.mass_tit{
+	font-size: 20px;
+	color:#333;
+	font-weight: bold;
+	margin-right: 13px;
+}
+.mass_b{
+	width: 34px;
+	height: 27px;
+	text-align: center;
+	line-height: 27px;
+	color: #fff;
+	margin-right: 6px;
+}
+.rightM p{
+	margin-bottom: 30px;
+	color: #333;
+
+}
+.rightM p.leftP{
+	float: left;
+}
+.rightM .price{
+	font-size: 18px;
+	float: right;
+	font-weight: bold;
+	color: #333;
+}
+.rightM .price>span{
+	font-size: 24px;
+	font-weight: bolder;
+	color: #f15044;
+}
+/*分页样式*/
+.page{
+	width: 100%;	
+}
+.page>ul{
+	margin:30px auto;
+	overflow: hidden;
+	width: 290px;
+}
+.page>ul>li{
+	float: left;
+	margin:0 5px;
+	width: 32px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border:1px solid #b0b4b9;
+	cursor: pointer;
+	color:#555555;
+}
+.page>ul .dian{
+	border: none;
+}
+.page>ul .next{
+	width: 60px;
+	height: 30px;
+}
+
+.page .activeP{
+	border: 1px solid #f15044;
+	background-color: #f15044;
+	color:#fff;
+}
+/*尾部的样式*/
+.footer{
+	width: 100%;
+	overflow: hidden;
+	background: url("../image/footer-bg.jpg") no-repeat;
+
+}
+.foot_box{
+	width:1150px;
+	height: 430px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.one_f{
+	margin:30px 0;
+	overflow: hidden;
+	font-size: 14px;
+}
+.one_f>li{
+	float: left;
+	margin-right: 15px;
+
+}
+.one_f>li>a{
+	color:#fff;
+}
+.center_box{
+	width: 100%;
+	height: 190px;
+	margin-bottom: 25px;
+	border-top:1px solid #393939;
+	border-bottom:1px solid #393939;
+}
+.explain{
+	margin-top: 78px;
+	float: left;
+}
+.cen1{
+	font-size: 12px;
+	width: 880px;
+	overflow: hidden;
+	float: left;
+}
+.cen1>li{
+	float: left;
+	padding: 10px;
+	background-color: #121212;
+	margin-top: 12px;
+	margin-right: 12px;
+	font-size: 12px;
+}
+.cen1>li.active_cen{
+	background-color: #3d3d3d;
+}
+.cen1>li.active_cen a{
+	color: #fff;
+}
+.cen1>li a{
+	color: #999999;
+}
+.footImg{
+	float:right;width:140px;height:140px;margin-top:10px
+}
+.cen2{
+	width: 880px;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+
+}
+.cen2>li{
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.cen2>li>a{
+	color:#999;
+}
+.foot_box p{
+	font-size: 12px;
+	color:#999999;
+	margin-bottom: 3px;
+}

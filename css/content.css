@@ -1,0 +1,653 @@
+/*中间内容样式*/
+.cenList{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+.navCon{
+	width: 360px;
+	float: left;
+	margin:25px 0;
+	overflow:hidden;
+
+}
+.navCon img{
+	float: left;
+}
+.navCon span{
+	float: left;
+	margin:0 20px;
+	width: 1px;
+	height: 28px;
+	background-color: #cccccc;
+}
+.navCon .suP{
+	width:60px; 
+	height:26px;
+	float: left;
+	border:1px solid #dfdfdf;
+	text-align: center;
+	line-height: 26px;
+	color:#333;
+
+}
+.suP>.jian{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin:6px 5px;
+	background: url("../image/listSan.png") center no-repeat; 
+	
+}
+/*搜索框样式*/
+
+.seaCon{
+	width: 420px;
+	overflow: hidden;
+	float: right;
+	margin:25px 0;
+	
+}
+.seaCon>input{
+	width: 370px;
+	height: 35px;
+	float: left;
+	border:none;
+	color:#767676;
+	border:1px solid #ccc;
+}
+.seaCon>.seImg1{
+	float: left;
+	width: 37px;
+	height: 37px;
+	text-align: center;
+	background-color:#f15044;
+}
+.seImg1>img{
+	position: relative;
+	top:8px;
+}
+/*详细信息头部的样式*/
+.conTop{
+	width: 100%;
+	overflow: hidden;
+	background-color: #091931;
+}
+.cenUl{
+	overflow: hidden;
+	margin:8px 0;
+}
+.cenUl>li img{
+	width: 18px;
+	height: 18px;
+	position: relative;
+	top:3px;
+}
+.cenUl>li{
+	float: left;
+	margin:0 5px;
+	color: #fff;
+}
+.cenUl>li>a{
+	font-size: 12px;
+	color:#fff;
+}
+/*中间具体信息的样式*/
+.conFormate{
+	width: 950px;
+	overflow: hidden;
+	padding: 25px;
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+/*左边图片样式*/
+.leftCon{
+	width: 487px;
+	overflow: hidden;
+	float: left;
+}
+.leftCon>.bigImg img{
+	width: 480px;
+	height: 360px;
+	margin-bottom: 4px;
+}
+.leftCon>ul{
+	width: 487px;
+	overflow: hidden;
+	float: left;
+}
+.leftCon>ul>li{
+	float: left;
+	width: 117px;
+	height: 90px;
+	margin-right: 4px;
+}
+.leftCon>ul>li img{
+	width: 117px;
+	height: 90px;
+}
+
+.conText{
+	text-align: center;
+}
+.conText>div{
+	width: 117px;
+	height: 17px;
+	position: relative;
+	top:-22px;
+	background-color: #000;
+	opacity: 0.4;
+	line-height: 17px;
+}
+.conText>p{
+	color:#fff;
+	font-size: 12px;
+	position:relative;
+	top:-40px;
+}
+/*右边介绍样式*/
+.rightCon{
+	width:440px;
+	float: right;
+	overflow: hidden;
+}
+.massUl{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #979797;
+}
+.massUl>li{
+	float: left;
+}
+.mass_tit{
+	font-size: 20px;
+	color:#333;
+	font-weight: bold;
+	margin-right: 13px;
+}
+.mass_b{
+	width: 34px;
+	height: 27px;
+	text-align: center;
+	line-height: 27px;
+	color: #fff;
+	margin-right: 6px;
+}
+.mass_hreat>img{
+	width: 13px;
+	height: 13px;
+	position: relative;
+	top:2px;
+}
+.massUl .mass_hreat{
+	width: 90px;
+	height: 25px;
+	float: right;
+	border: 1px solid #979797;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 25px;
+	color:#333333;
+}
+.massTwo{
+	width: 100%;
+	overflow: hidden;
+	margin:25px 0px;
+}
+.massTwo>ul,.massTwo>div{
+	float: left;
+}
+.massTwo>div{
+	width: 1px;
+	height: 43px;
+	background-color: #ebebeb;
+}
+.massTwo>.form1>li{
+	text-align: center;
+}
+.massTwo>.form1{
+	width:219px;
+	font-size: 14px;
+	overflow: hidden;
+}
+.form1>.bigP>span{
+	font-size: 20px;
+}
+.massThre{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #979797;
+	border-bottom: 1px solid #979797;
+	padding-top: 13px;
+}
+.massThre>ul{
+	width: 100%;
+	margin:10px 0;
+	float: left;
+	font-size: 14px;
+}
+.massThre>ul>li,.massFor li{
+	float: left;
+	margin-right: 12px;
+}
+.massThre .massT,.massFor .massT{
+	color: #999;
+}
+.massFor>ul{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	font-size: 14px;
+	margin-top: 25px;
+}
+.massFor span{
+	font-size: 20px;
+	color:#e4393c;
+}
+/*中间内容介绍*/
+.conCon{
+	width: 100%;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+.conNav{
+	width: 100%;
+	overflow: hidden;
+	margin-top:15px;
+	background-color:#fff;
+}
+.conNav>ul>li{
+	float: left;
+	width: 120px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 14px;
+}
+.conNav>ul>li>a{
+	color:#555555;
+}
+.conNav .activeCon{
+	background-color:#39ac6a;
+}
+.conNav .activeCon>a{
+	color:#fff;
+}
+.conjian{
+	position: relative;
+	left:55px;
+	top:0px;
+
+}
+/*第二部分*/
+.proCon{
+	width:100%;
+	overflow: hidden;
+	background-color: #fff;
+	margin-bottom: 15px;
+
+}
+.proCon>.conTit{
+	width: 950px;
+	overflow: hidden;
+	border-bottom: 1px solid #e4e4e4;
+	padding: 25px;
+}
+.conTit>p{
+	font-size: 16px;
+	color:#333;
+	float: left;
+}
+.conBox{
+	width: 100%;
+	overflow: hidden;
+}
+.conBox>.Concon{
+	width: 950px;
+	overflow: hidden;
+	padding: 25px;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.Concon li{
+	width: 220px;
+	overflow: hidden;
+	float: left;
+	margin-right: 22px;
+}
+.Concon li.lastPro1{
+	margin-right: 0px;
+}
+.Concon img{
+	width: 220px;
+	height: 162px;
+}
+.Concon .china,.conBox4 .china{
+	margin-top:20px;
+	font-size: 12px; 
+}
+.conBox4 .china{
+	position: relative;
+	top:-25px;
+}
+.china>.black{
+	font-size: 14px;
+	font-weight: bold;
+}
+.china>.tuB{
+	display: inline-block;
+	width: 36px;
+	height: 20px;
+	border-radius: 2px;
+	background-color: #fef0e2;
+	text-align: center;
+	line-height: 20px;
+	color:#fa9633;
+	position: relative;
+	top:-2px;
+}
+.china>.tu4{
+	background-color: #ccc;
+	color:#fff;
+}
+.conBox .conFoot{
+	width: 100%;
+	height:52px;
+	text-align: center;
+	background-color: #fbfbfb;
+	line-height: 52px;
+	font-size: 12px;
+	color:#a699b2;
+}
+/*楼盘配套的样式*/
+.proCon>.conBox2{
+	width: 950px;
+	overflow: hidden;
+	padding: 25px;
+}
+.conBox2 .Map{
+	width: 950px;
+	height: 330px;
+
+}
+.mapleft{
+	float: left;
+}
+.mapRight{
+	width: 273px;
+	height: 328px;
+	border:1px solid #ddd;
+	float: left;
+}
+.nav_map{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+.nav_map>ul{
+	width: 100%;
+	overflow: hidden;
+}
+.nav_map>ul>li{
+	float: left;
+}
+.nav_map>.mapNav>li{
+	width: 44.5px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #5ea51e;
+}
+.mapNav>li.last{
+	border-right: none;
+}
+.nav_map>.mapNav .activeMap{
+	border-top: 1px solid #3ea86a;
+	border-right: 1px solid #3ea86a;
+	border-bottom: none;
+}
+.nav_map>.mapNav a{
+	color: #333;
+}
+.nav_map>.km>li{
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin: 5px 2px;
+	color:#555;
+}
+.nav_map>.km>li.activeKm{
+	background-color:#39ac6a;
+	color:#fff;
+}
+.mapContent{
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+}
+.mapContent>p{
+	font-size: 16px;
+	color:#333;
+	margin-bottom: 10px;
+}
+.mapContent>ul{
+	float: left;
+	width: 253px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 24px;	
+	color:#333;
+	margin-bottom: 10px;
+}
+.mapContent>ul>li{
+	float: left;
+	margin-right: 2px;
+}
+.mapContent .ulTitle{
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 24px;	
+	background-color: #3ea86a;
+	color:#fff;
+}
+.mapContent>ul>li.ulM{
+	float: right;
+}
+/*楼盘详情的样式*/
+.proCon>.conBox3{
+	width: 950px;
+	padding: 25px;
+}
+.conBox3 table{
+	width: 950px;
+	height: 290px;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+.box3Tab .tabL{
+	width: 100px;
+	color:#333;
+	font-weight: bold;
+}
+
+.box3Tab .tabR{
+	width: 305px;
+	color:#888;
+}
+/*楼盘计算器的样式*/
+.proCon>.conBox3{
+	width: 950px;
+	overflow: hidden;
+	padding: 25px;
+}
+.box3Left{
+	width: 350px;
+	overflow: hidden;
+	float: left;
+}
+.box3Left>.leftTop{
+	width: 100%;
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+.leftTop>.p1,.box3Right>.p1{
+	font-size: 16px;
+	color: #333;
+}
+.leftTop>.p2{
+	font-size: 12px;
+	color: #aaa;
+}
+.choses{
+	width: 100%;
+	overflow: hidden;
+	
+}
+.choses>.choseItem{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.choseItem>span{
+	font-size: 14px;
+	color:#333;
+	line-height: 35px;
+	float: left;
+	margin-right: 20px;
+}
+
+.choseItem>.chose3{
+	width: 236px;
+	height: 35px;
+	float: left;
+	padding-left: 20px;
+	text-align: left;
+	line-height: 35px;
+	border:1px solid #ccc;
+	background-color: #f9f9f9;
+	font-size: 12px;
+	color:#333;
+	border-radius: 2px;
+}
+.choseItem1>.chose3{
+	background-color: #fff;
+}
+.chose3>p{
+	width: 210px; 
+	float: left;
+}
+.chose3>img{
+	float: left;
+	position: relative;
+	top:15px;
+}
+.box3Left>.choseBott{
+	width: 255px;
+	overflow: hidden;
+	margin-left: 93px;
+	margin-top:20px;
+	font-size: 12px;
+}
+.choseBott>.choseb{
+	width: 70px;
+	margin-right: 25px;
+	float: left;
+}
+.choseb>.rigbox{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border:1px solid #ddd;
+}
+.choseb>.rigI{
+	position: relative;
+	top:2px;
+}
+.box3Center{
+	width:1px;
+	height: 334px;
+	float: left;
+	background-color:#e4e4e4;
+	margin:0 115px;
+}
+.box3Center>img{
+	position: relative;
+	top:124px;
+	left:-41px;
+}
+.box3Right{
+	width: 358px;
+	overflow: hidden;
+	float: left;
+	font-size: 12px;
+}
+.box3Right>span{
+	float: left;
+	margin-top: 8px;
+	margin-right: 30px;
+	margin-bottom: 11px;
+}
+.box3Right>.boxr{
+	width: 3505px;
+	height: 42px;
+	overflow: hidden;
+	float: left;
+	line-height: 42px;
+	margin-bottom: 8px;
+}
+.boxr>p{
+	margin-left: 15px;
+}
+.box3Right>.p3{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	margin-top: 40px;
+	color:#999;
+}
+/*楼盘推荐的样式*/
+.proCon .conTit1{
+	border-bottom: none;
+}
+.proCon>.conBox4{
+	width: 950px;
+	padding: 0 25px 25px;
+	overflow: hidden;
+}
+.conBox4>.box4Ul{
+	width: 100%;
+	overflow: hidden;
+}
+.box4Ul>li{
+	float: left;
+	width: 215px;
+	height: 215px;
+	margin-right: 25px;
+}
+.box4Ul>li.lastLi4{
+	margin-right: 0px;
+}
+.box4Ul img{
+	width: 215px;
+	height: 160px;
+}
+.boxPic{
+	width: 90px;
+	height: 20px;
+	border-radius: 3px;
+	background-color:#f15044;
+	color:#fff;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	position: relative;
+	left: 117px;
+	top:-30px;
+}
